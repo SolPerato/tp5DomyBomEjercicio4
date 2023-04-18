@@ -1,10 +1,13 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
 }
 
 body{
-    background:yellow;
+    background-color: #0093E9;    
     background-size: cover;
     color: white;
     font-size: 10px;
@@ -17,8 +20,12 @@ body{
 }
 
 .contenedor{
-    width: 40%;
-    margin: 35px;;
+    width: 50%;
+    margin: 35px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .contenedor p{
@@ -27,22 +34,26 @@ body{
 }
 
 .fecha{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bree Serif', serif;
+font-family: 'Chivo Mono', monospace;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2.5em;
     margin-bottom: 5px;
-    background-color: aqua;
+    background-color: rgba(93, 169, 169, 0.632);
     padding: 20px;
     width: 100%;
+    border-radius: 25px;
 }
 
 .reloj{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Bree Serif', serif;
+    font-family: 'Chivo Mono', monospace;
     width: 100%;
     padding: 20px;
     font-size: 4em;
     text-align: center;
-    background-color: blueviolet;
+    background-color: rgba(148, 101, 193, 0.699);
+    border-radius: 25px;
 }
 .medium{
     display: inline-block;
