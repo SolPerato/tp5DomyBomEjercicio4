@@ -11,17 +11,31 @@
     <title>Trabajo Practico 5 Dom y Bom</title>
 </head>
 <body>
-    
-   <div class="reloj">
-    <p class="dia" id="dia">------</p>
-    <p class="mes" id="mes">------</p>
-     <div class="hora" id="hora">
-        <p>00</p>
-        <p>00</p>
-        <p>00</p>
-     </div>
-   </div>
-   <script src="js/ejercicio4.js"></script>
+    <main>
+    <div class="wrap">
+  <div class="contenedor">
+    <div class="fecha">
+       <p id="diasemana" class="diasemana"></p>
+       <p id="dia" class="dia"></p>
+       <p>de</p>
+       <p id="mes" class="mes"></p>
+       <p>del</p>
+       <p id="anio" class="anio"></p>
+    </div>
+    <div class="reloj">
+      <p id="horas" class="horas"></p>
+      <p>:</p>
+      <p id="minutos" class="minutos"></p>
+      <p>:</p>
+      <div class="medium">
+       <p id="ampm" class="ampm"></p>
+       <p id="segundos" class="segundos"></p>
+      </div>
+    </div>
+  </div>
+</div>
+    </main>
+   <script src="js/app.js"></script>
     
 </body>
 </html>
